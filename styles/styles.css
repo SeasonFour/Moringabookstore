@@ -4,6 +4,7 @@ body{
 	font-family: 'Poiret One', sans-serif;
 	background: -webkit-linear-gradient(top, #4D4D4D 0, #4D4D4D 180px, #939393 400px); 
 	background: -moz-linear-gradient(top, #4D4D4D 0, #4D4D4D 180px, #939393 400px); 
+	color: white;
 }
 
 .jumbotron{
@@ -13,7 +14,6 @@ body{
     height: 600px;
     background-size: cover;
     overflow: hidden;
-	color: white;
 	text-shadow: 2px 2px black;
 }
 
@@ -35,10 +35,21 @@ body{
 	font-weight: bold;
 }
 
-footer{
+.fake-image{
+	background-color: black;
+	color: lightgray;
+	margin: 0 auto;
+	width: 200px;
+	height: 300px;
+}
+
+.existing-titles, footer{
 	color: black;
 	font-size: 1.3em;
-	text-align: center;
 	font-weight: bolder;
-	background-color: lightgray;
+	background-color: lightgray
+}
+
+footer{
+	text-align: center;
 }
