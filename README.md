@@ -1,2 +1,3 @@
 ## Moringa School Bookstore
-A web site for Moringa's bookstore
+
+A wireframe for a bookstore using Twitter Bootstrap 3.
