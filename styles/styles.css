@@ -2,18 +2,19 @@
 
 body{
 	font-family: 'Poiret One', sans-serif;
-	background: -webkit-linear-gradient(top, #4D4D4D 0, #4D4D4D 180px, #939393 400px); 
-	background: -moz-linear-gradient(top, #4D4D4D 0, #4D4D4D 180px, #939393 400px); 
+	background: -webkit-linear-gradient(top, #4D4D4D 0, #4D4D4D 180px, #939393 90%); 
+	background: -moz-linear-gradient(top, #4D4D4D 0, #4D4D4D 180px, #939393 90%); 
 	color: white;
 }
 
 .jumbotron{
     position: relative;
-    background: #000 url("../images/jumbo.jpg") center center;
-    width: 100%;
-    height: 600px;
+    background: #000 url("../images/books.jpg") center center no-repeat;
     background-size: cover;
+    height: 800px;
     overflow: hidden;
+    font-weight: bolder;
+    color: black;
 	text-shadow: 2px 2px black;
 }
 
@@ -29,6 +30,10 @@ body{
 
 .navbar-header{
 	margin-top: 10px;
+}
+
+.existing-header{
+	font-weight: bold;
 }
 
 .navbar-right{
@@ -47,6 +52,9 @@ body{
 	color: black;
 	font-size: 1.3em;
 	font-weight: bolder;
+}
+
+.existing-titles{
 	background-color: lightgray
 }
 
